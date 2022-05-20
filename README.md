@@ -1,2 +1,2 @@
-# Simple-UI-CSS-
+# Simple-UI-CSS
 Simple CSS style classes
