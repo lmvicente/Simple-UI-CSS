@@ -1,0 +1,212 @@
+<html>
+    <head>
+    <style>
+        /* GLOBAL STYLES */
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        /* HEADER STYLES */
+        h1, h2, h3 {
+            margin: 0px 0px 1rem 0px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight:600;
+        }
+
+        h3 {
+            font-size:1.5rem;
+            font-weight: 500;
+        }
+
+        /* BUTTON STYLES */
+        input[type=button] {
+            outline: none;
+            border: none;
+            cursor: pointer;
+            margin: 3px;
+            border-radius: 10px;
+        }
+
+        .primary-btn {
+            background-color: #5E4AE3;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .secondary-btn {
+            background-color: #1446A0;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .success-btn {
+            background-color: #17CA89;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .danger-btn {
+            background-color: #E01A4F;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .warning-btn {
+            background-color: #FBAF00;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .info-btn {
+            background-color: #48A9A6;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .dark-btn {
+            background-color: #433C44;
+            color: #FFF;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .light-btn {
+            background-color: #CBC7CC;
+            color: #000;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            padding: 1rem;
+        }
+
+        .primary-btn:hover {
+            background-color: #8F7EFF;
+        }
+
+        .secondary-btn:hover {
+            background-color: #2767DB;
+        }
+
+        .success-btn:hover {
+            background-color: #2EEAA6;
+        }
+
+        .danger-btn:hover {
+            background-color: #FD4E7D;
+        }
+
+        .warning-btn:hover {
+            background-color: #FFCC4A;
+        }
+
+        .info-btn:hover {
+            background-color: #63D4D1;
+        }
+
+        .dark-btn:hover {
+            background-color: #615B62;
+        }
+
+        .light-btn:hover {
+            background-color: #E7E7E7;
+        }
+        
+        .primary-btn:active {
+            background-color: #4A37C7;
+        }
+
+        .secondary-btn:active {
+            background-color: #113C8A;
+        }
+
+        .success-btn:active {
+            background-color: #0EAC73;
+        }
+
+        .danger-btn:active {
+            background-color: #BA1B46;
+        }
+
+        .warning-btn:active {
+            background-color: #E39F00;
+        }
+
+        .info-btn:active {
+            background-color: #35908E;
+        }
+
+        .dark-btn:active {
+            background-color: #201D21;
+        }
+
+        .light-btn:active {
+            background-color: #AFABB0;
+            color: #FFF;
+        }
+
+        /* SELECT / DROPDOWN */
+        select {
+
+        }
+
+        /* ANIMATION CLASSES */
+        .animate {
+            transition-duration: 0.5s;
+            -o-transition-timing-function: ease-in-out;
+        }
+        .move-up:hover {
+            transform: translateY(-10px);
+        }
+
+        .scale-out:hover {
+            transform:scale(1.25)
+        }
+
+        .scale-in:hover {
+            transform:scale(0.90)
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <h1>H1. Buttons</h1>
+        <h2>H2. Sub-Header</h2>
+        <h3>H3. Sub-Sub Header</h3>
+        <input type="button" class="primary-btn" value="Primary Button" />
+        <input type="button" class="secondary-btn" value="Secondary Button" />
+        <input type="button" class="success-btn" value="Success Button" />
+        <input type="button" class="danger-btn" value="Danger Button" />
+        <input type="button" class="warning-btn" value="Warning Button" />
+        <input type="button" class="info-btn" value="Info Button" />
+        <input type="button" class="dark-btn" value="Dark Button" />
+        <input type="button" class="light-btn" value="Light Button" />
+
+        <h2>Animations</h2>
+        <h3>You can also animate things using the animation classes!</h3>
+        <input type="button" class="primary-btn animate move-up" value="Primary Button" />
+        <input type="button" class="secondary-btn animate scale-out" value="Secondary Button" />
+        <input type="button" class="success-btn animate scale-in" value="Success Button" />
+        
+    </body>
+</html>
